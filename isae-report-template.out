@@ -1,0 +1,27 @@
+\BOOKMARK [1][-]{section.1}{Introduction}{}% 1
+\BOOKMARK [1][-]{section.2}{Motivation}{}% 2
+\BOOKMARK [1][-]{section.3}{Overview}{}% 3
+\BOOKMARK [2][-]{subsection.3.1}{Research questions}{section.3}% 4
+\BOOKMARK [2][-]{subsection.3.2}{Goals of the project}{section.3}% 5
+\BOOKMARK [1][-]{section.4}{Prototype}{}% 6
+\BOOKMARK [2][-]{subsection.4.1}{Framework}{section.4}% 7
+\BOOKMARK [2][-]{subsection.4.2}{Data Collection}{section.4}% 8
+\BOOKMARK [3][-]{subsubsection.4.2.1}{Retrieve data from Facebook}{subsection.4.2}% 9
+\BOOKMARK [3][-]{subsubsection.4.2.2}{Retrieve data from Twitter}{subsection.4.2}% 10
+\BOOKMARK [2][-]{subsection.4.3}{Front-end}{section.4}% 11
+\BOOKMARK [2][-]{subsection.4.4}{Back-end}{section.4}% 12
+\BOOKMARK [1][-]{section.5}{Aspects of user visualization}{}% 13
+\BOOKMARK [2][-]{subsection.5.1}{Amount of contribution}{section.5}% 14
+\BOOKMARK [3][-]{subsubsection.5.1.1}{Theory}{subsection.5.1}% 15
+\BOOKMARK [3][-]{subsubsection.5.1.2}{Visualization}{subsection.5.1}% 16
+\BOOKMARK [2][-]{subsection.5.2}{Topic Models}{section.5}% 17
+\BOOKMARK [3][-]{subsubsection.5.2.1}{Latent dirichlet allocation}{subsection.5.2}% 18
+\BOOKMARK [3][-]{subsubsection.5.2.2}{Nonnegative Matrix Factorization}{subsection.5.2}% 19
+\BOOKMARK [3][-]{subsubsection.5.2.3}{Compare LDA and NFM}{subsection.5.2}% 20
+\BOOKMARK [3][-]{subsubsection.5.2.4}{Visualization}{subsection.5.2}% 21
+\BOOKMARK [2][-]{subsection.5.3}{Impact of post}{section.5}% 22
+\BOOKMARK [3][-]{subsubsection.5.3.1}{Theory}{subsection.5.3}% 23
+\BOOKMARK [3][-]{subsubsection.5.3.2}{Cosine Similarity}{subsection.5.3}% 24
+\BOOKMARK [3][-]{subsubsection.5.3.3}{Visualization}{subsection.5.3}% 25
+\BOOKMARK [3][-]{subsubsection.5.3.4}{Other possibilities to visualize text corpus}{subsection.5.3}% 26
+\BOOKMARK [1][-]{section.6}{Conclusion and future work}{}% 27

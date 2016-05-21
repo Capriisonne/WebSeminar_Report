@@ -1,0 +1,20 @@
+\section{Similarity between short texts}
+
+\subsection{Literature review}
+
+\subsection{Cosine Similarity}
+
+For creating the user timeline, we need to find similar posts that a user share both in Twitter and Facebook. For this purpose, we calculate the cosine similarity metric.The cosine similarity \cite{similarity} between two vectors (or two documents on the Vector Space) is a measure that calculates the cosine of the angle between them. This metric is a measurement of orientation and not magnitude, it can be seen as a comparison between documents on a normalized space because we’re not taking into the consideration only the magnitude of each word count (tf-idf) of each document, but the angle between the documents. 
+
+Given two posts $t_{a}$ and $t_{b}$, their cosine similarity is
+
+\begin{equation}
+\cos ({\bf t_{a}},{\bf t_{b}})= {{\bf t_{a}} {\bf t_{b}} \over \|{\bf t_{a}}\| \|{\bf \textbf{b}}\|} 
+\end{equation}
+
+where  $t_{a}$ and $t_{b}$ are $m$-dimensional vectors over the term set
+$T = {t_{1}, . . . , t_{m}}$. Each dimension represents a term with its
+weight in the document, which is non-negative. As a result, the cosine similarity 
+is non-negative and bounded between $[0,1]$. 
+
+We predefine a threshold to accept two similar posts to have similarity at least $60\%$. This portion lets us a great amount of similar posts and also recognize twitter posts that have urls, hashtags and mentions.

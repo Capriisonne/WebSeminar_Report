@@ -1,0 +1,34 @@
+\begin{thebibliography}{1}
+
+\bibitem{Blei:2003:LDA:944919.944937}
+D.~M. Blei, A.~Y. Ng, and M.~I. Jordan.
+\newblock Latent dirichlet allocation.
+\newblock {\em J. Mach. Learn. Res.}, 3:993--1022, Mar. 2003.
+
+\bibitem{heinrich2005parameter}
+G.~Heinrich.
+\newblock {Parameter estimation for text analysis}.
+\newblock {\em Web: http://www. arbylon. net/publications/text-est. pdf}, 2005.
+
+\bibitem{similarity}
+A.~Huang.
+\newblock {Similarity measures for text document clustering}.
+\newblock pages 49--56, 2008.
+
+\bibitem{lee99}
+D.~D. Lee and H.~S. Seung.
+\newblock Learning the parts of objects by nonnegative matrix factorization.
+\newblock {\em Nature}, 401:788--791, 1999.
+
+\bibitem{paa94}
+P.~Paatero and U.~Tapper.
+\newblock Positive matrix factorization: A non-negative factor model with
+  optimal utilization of error estimates of data values.
+\newblock {\em Environmetrics}, 5(2):111--126, 1994.
+
+\bibitem{steyvers}
+M.~Steyvers and T.~Griffiths.
+\newblock {\em {Probabilistic topic models}}, volume 427.
+\newblock Handbook of Latent Semantic Analysis, 2007.
+
+\end{thebibliography}

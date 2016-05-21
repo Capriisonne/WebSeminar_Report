@@ -1,0 +1,28 @@
+\select@language {english}
+\contentsline {section}{\numberline {1}Introduction}{4}{section.1}
+\contentsline {section}{\numberline {2}Motivation}{5}{section.2}
+\contentsline {section}{\numberline {3}Overview}{6}{section.3}
+\contentsline {subsection}{\numberline {3.1}Research questions}{6}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Goals of the project}{6}{subsection.3.2}
+\contentsline {section}{\numberline {4}Prototype}{7}{section.4}
+\contentsline {subsection}{\numberline {4.1}Framework}{7}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Data Collection}{7}{subsection.4.2}
+\contentsline {subsubsection}{\numberline {4.2.1}Retrieve data from Facebook}{7}{subsubsection.4.2.1}
+\contentsline {subsubsection}{\numberline {4.2.2}Retrieve data from Twitter}{7}{subsubsection.4.2.2}
+\contentsline {subsection}{\numberline {4.3}Front-end}{8}{subsection.4.3}
+\contentsline {subsection}{\numberline {4.4}Back-end}{8}{subsection.4.4}
+\contentsline {section}{\numberline {5}Aspects of user visualization}{9}{section.5}
+\contentsline {subsection}{\numberline {5.1}Amount of contribution}{9}{subsection.5.1}
+\contentsline {subsubsection}{\numberline {5.1.1}Theory}{9}{subsubsection.5.1.1}
+\contentsline {subsubsection}{\numberline {5.1.2}Visualization}{9}{subsubsection.5.1.2}
+\contentsline {subsection}{\numberline {5.2}Topic Models}{9}{subsection.5.2}
+\contentsline {subsubsection}{\numberline {5.2.1}Latent dirichlet allocation}{9}{subsubsection.5.2.1}
+\contentsline {subsubsection}{\numberline {5.2.2}Nonnegative Matrix Factorization}{9}{subsubsection.5.2.2}
+\contentsline {subsubsection}{\numberline {5.2.3}Compare LDA and NFM}{9}{subsubsection.5.2.3}
+\contentsline {subsubsection}{\numberline {5.2.4}Visualization}{9}{subsubsection.5.2.4}
+\contentsline {subsection}{\numberline {5.3}Impact of post}{9}{subsection.5.3}
+\contentsline {subsubsection}{\numberline {5.3.1}Theory}{9}{subsubsection.5.3.1}
+\contentsline {subsubsection}{\numberline {5.3.2}Cosine Similarity}{9}{subsubsection.5.3.2}
+\contentsline {subsubsection}{\numberline {5.3.3}Visualization}{10}{subsubsection.5.3.3}
+\contentsline {subsubsection}{\numberline {5.3.4}Other possibilities to visualize text corpus}{10}{subsubsection.5.3.4}
+\contentsline {section}{\numberline {6}Conclusion and future work}{11}{section.6}
