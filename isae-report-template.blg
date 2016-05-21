@@ -1,11 +1,68 @@
-This is BibTeX, Version 0.99dThe top-level auxiliary file: isae-report-template.aux
+This is BibTeX, Version 0.99d (TeX Live 2012)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: isae-report-template.aux
 A level-1 auxiliary file: 01-introduction.aux
-A level-1 auxiliary file: 02-motivation.aux
-A level-1 auxiliary file: 03-overview.aux
-A level-1 auxiliary file: 04-prototype.aux
-A level-1 auxiliary file: 05-aspects-of-user-visualization.aux
-A level-1 auxiliary file: 06-conclusion.aux
+A level-1 auxiliary file: 02-User.aux
+A level-1 auxiliary file: 03-visualize-text-corpus.aux
+A level-1 auxiliary file: 04-topic-models.aux
+A level-1 auxiliary file: 05-similarity-between-short-texts.aux
+A level-1 auxiliary file: 06-Implementation.aux
+A level-1 auxiliary file: 07-conclusion.aux
 The style file: abbrv.bst
 Database file #1: references.bib
+I was expecting a `,' or a `}'---line 137 of file references.bib
+ :  
+ :  author = {Hong, Liangjie and Davison, Brian D.},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+A bad cross reference---entry "chang"
+refers to entry "conf/kdd/2009", which doesn't exist
+Warning--I didn't find a database entry for "conf/kdd/2009"
+Warning--to sort, need author or key in Hong
+Warning--empty author in Hong
+Warning--empty title in Hong
+Warning--empty booktitle in Hong
+Warning--empty year in Hong
 Warning--empty journal in similarity
-(There was 1 warning)
+You've used 18 entries,
+            2118 wiz_defined-function locations,
+            628 strings with 7648 characters,
+and the built_in function-call counts, 7433 in all, are:
+= -- 763
+> -- 324
+< -- 11
++ -- 126
+- -- 108
+* -- 501
+:= -- 1142
+add.period$ -- 62
+call.type$ -- 18
+change.case$ -- 104
+chr.to.int$ -- 0
+cite$ -- 24
+duplicate$ -- 319
+empty$ -- 588
+format.name$ -- 108
+if$ -- 1645
+int.to.chr$ -- 0
+int.to.str$ -- 18
+missing$ -- 19
+newline$ -- 91
+num.names$ -- 36
+pop$ -- 127
+preamble$ -- 1
+purify$ -- 88
+quote$ -- 0
+skip$ -- 241
+stack$ -- 0
+substring$ -- 471
+swap$ -- 109
+text.length$ -- 11
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 70
+warning$ -- 6
+while$ -- 70
+width$ -- 20
+write$ -- 212
+(There were 2 error messages)

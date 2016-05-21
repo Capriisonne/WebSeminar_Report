@@ -1,9 +1,18 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 
-\bibitem{Blei:2003:LDA:944919.944937}
+\bibitem{Hong}
+
+
+\bibitem{Blei}
 D.~M. Blei, A.~Y. Ng, and M.~I. Jordan.
 \newblock Latent dirichlet allocation.
 \newblock {\em J. Mach. Learn. Res.}, 3:993--1022, Mar. 2003.
+
+\bibitem{chang}
+J.~Chang, J.~L. Boyd-Graber, and D.~M. Blei.
+\newblock Connections between the lines: augmenting social networks with text.
+\newblock In J.~F.~E. IV, F.~Fogelman-Soulié, P.~A. Flach, and M.~Zaki,
+  editors, {\em KDD}, pages 169--178. ACM, 2009.
 
 \bibitem{heinrich2005parameter}
 G.~Heinrich.
@@ -20,15 +29,85 @@ D.~D. Lee and H.~S. Seung.
 \newblock Learning the parts of objects by nonnegative matrix factorization.
 \newblock {\em Nature}, 401:788--791, 1999.
 
+\bibitem{Liu}
+Y.~Liu, A.~Niculescu-Mizil, and W.~Gryc.
+\newblock Topic-link lda: Joint models of topic and author community.
+\newblock In {\em Proceedings of the 26th Annual International Conference on
+  Machine Learning}, ICML '09, pages 665--672, New York, NY, USA, 2009. ACM.
+
+\bibitem{McCallum}
+A.~McCallum, X.~Wang, and N.~Mohanty.
+\newblock Joint group and topic discovery from relations and text.
+\newblock In {\em Proceedings of the 2006 Conference on Statistical Network
+  Analysis}, ICML'06, pages 28--44, Berlin, Heidelberg, 2007. Springer-Verlag.
+
+\bibitem{improving}
+R.~Mehrotra, S.~Sanner, W.~Buntine, and L.~Xie.
+\newblock Improving lda topic models for microblogs via tweet pooling and
+  automatic labeling.
+\newblock In {\em Proceedings of the 36th international ACM SIGIR conference on
+  Research and development in information retrieval}, pages 889--892. ACM,
+  2013.
+
+\bibitem{Nallapati}
+R.~M. Nallapati, A.~Ahmed, E.~P. Xing, and W.~W. Cohen.
+\newblock Joint latent topic models for text and citations.
+\newblock In {\em Proceedings of the 14th ACM SIGKDD International Conference
+  on Knowledge Discovery and Data Mining}, KDD '08, pages 542--550, New York,
+  NY, USA, 2008. ACM.
+
 \bibitem{paa94}
 P.~Paatero and U.~Tapper.
 \newblock Positive matrix factorization: A non-negative factor model with
   optimal utilization of error estimates of data values.
 \newblock {\em Environmetrics}, 5(2):111--126, 1994.
 
+\bibitem{Phan}
+X.-H. Phan, L.-M. Nguyen, and S.~Horiguchi.
+\newblock Learning to classify short and sparse text \& web with hidden topics
+  from large-scale data collections.
+\newblock In {\em Proceedings of the 17th International Conference on World
+  Wide Web}, WWW '08, pages 91--100, New York, NY, USA, 2008. ACM.
+
+\bibitem{microblogs}
+D.~Ramage, S.~Dumais, and D.~Liebling.
+\newblock Characterizing microblogs with topic models.
+\newblock In {\em Proc. ICWSM 2010}. American Association for Artificial
+  Intelligence, May 2010.
+
+\bibitem{Ramage}
+D.~Ramage, D.~Hall, R.~Nallapati, and C.~D. Manning.
+\newblock Labeled lda: A supervised topic model for credit attribution in
+  multi-labeled corpora.
+\newblock In {\em Proceedings of the 2009 Conference on Empirical Methods in
+  Natural Language Processing: Volume 1 - Volume 1}, EMNLP '09, pages 248--256,
+  Stroudsburg, PA, USA, 2009. Association for Computational Linguistics.
+
 \bibitem{steyvers}
 M.~Steyvers and T.~Griffiths.
 \newblock {\em {Probabilistic topic models}}, volume 427.
 \newblock Handbook of Latent Semantic Analysis, 2007.
+
+\bibitem{yan2013learning}
+X.~Yan, J.~Guo, S.~Liu, X.~Cheng, and Y.~Wang.
+\newblock Learning topics in short texts by non-negative matrix factorization
+  on term correlation matrix.
+\newblock In {\em Proceedings of the SIAM International Conference on Data
+  Mining}, 2013.
+
+\bibitem{Yan}
+X.~Yan, J.~Guo, S.~Liu, X.-q. Cheng, and Y.~Wang.
+\newblock Clustering short text using ncut-weighted non-negative matrix
+  factorization.
+\newblock In {\em Proceedings of the 21st ACM International Conference on
+  Information and Knowledge Management}, CIKM '12, pages 2259--2262, New York,
+  NY, USA, 2012. ACM.
+
+\bibitem{Zhang}
+H.~Zhang, C.~L. Giles, H.~C. Foley, and J.~Yen.
+\newblock Probabilistic community discovery using hierarchical latent gaussian
+  mixture model.
+\newblock In {\em Proceedings of the 22Nd National Conference on Artificial
+  Intelligence - Volume 1}, AAAI'07, pages 663--668. AAAI Press, 2007.
 
 \end{thebibliography}
