@@ -23,46 +23,47 @@ Warning--empty author in Hong
 Warning--empty title in Hong
 Warning--empty booktitle in Hong
 Warning--empty year in Hong
+Warning--there's a number but no volume in freeman
 Warning--empty journal in similarity
-You've used 18 entries,
+You've used 26 entries,
             2118 wiz_defined-function locations,
-            628 strings with 7648 characters,
-and the built_in function-call counts, 7433 in all, are:
-= -- 763
-> -- 324
-< -- 11
-+ -- 126
-- -- 108
-* -- 501
-:= -- 1142
-add.period$ -- 62
-call.type$ -- 18
-change.case$ -- 104
+            677 strings with 8880 characters,
+and the built_in function-call counts, 10404 in all, are:
+= -- 1061
+> -- 460
+< -- 15
++ -- 179
+- -- 153
+* -- 704
+:= -- 1623
+add.period$ -- 88
+call.type$ -- 26
+change.case$ -- 149
 chr.to.int$ -- 0
-cite$ -- 24
-duplicate$ -- 319
-empty$ -- 588
-format.name$ -- 108
-if$ -- 1645
+cite$ -- 33
+duplicate$ -- 441
+empty$ -- 818
+format.name$ -- 153
+if$ -- 2287
 int.to.chr$ -- 0
-int.to.str$ -- 18
-missing$ -- 19
-newline$ -- 91
-num.names$ -- 36
-pop$ -- 127
+int.to.str$ -- 26
+missing$ -- 28
+newline$ -- 131
+num.names$ -- 54
+pop$ -- 175
 preamble$ -- 1
-purify$ -- 88
+purify$ -- 126
 quote$ -- 0
-skip$ -- 241
+skip$ -- 330
 stack$ -- 0
-substring$ -- 471
-swap$ -- 109
-text.length$ -- 11
+substring$ -- 647
+swap$ -- 143
+text.length$ -- 15
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 70
-warning$ -- 6
-while$ -- 70
-width$ -- 20
-write$ -- 212
+type$ -- 100
+warning$ -- 7
+while$ -- 98
+width$ -- 28
+write$ -- 305
 (There were 2 error messages)

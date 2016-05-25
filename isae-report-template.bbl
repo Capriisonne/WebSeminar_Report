@@ -3,6 +3,29 @@
 \bibitem{Hong}
 
 
+\bibitem{friend_pred}
+L.~M. Aiello, A.~Barrat, R.~Schifanella, C.~Cattuto, B.~Markines, and
+  F.~Menczer.
+\newblock Friendship prediction and homophily in social media.
+\newblock {\em ACM Transactions on the Web}, 6(2):9:1--9:33, 2012.
+
+\bibitem{ba}
+F.~Benevenuto, T.~Rodrigues, M.~Cha, and V.~Almeida.
+\newblock Characterizing user behavior in online social networks.
+\newblock In {\em Proceedings of the 9th ACM SIGCOMM Conference on Internet
+  Measurement Conference}, IMC '09, pages 49--62, Chicago, Illinois, USA, 2009.
+
+\bibitem{am2}
+S.~Bhagat, G.~Cormode, and S.~Muthukrishnan.
+\newblock Node classification in social networks.
+\newblock In C.~C. Aggarwal, editor, {\em Social Network Data Analytics}, pages
+  115--148. Springer US, 2011.
+
+\bibitem{blei2}
+D.~Blei and J.~Lafferty.
+\newblock Topic models.
+\newblock {\em Text Mining: Theory and Applications}, 2009.
+
 \bibitem{Blei}
 D.~M. Blei, A.~Y. Ng, and M.~I. Jordan.
 \newblock Latent dirichlet allocation.
@@ -14,6 +37,16 @@ J.~Chang, J.~L. Boyd-Graber, and D.~M. Blei.
 \newblock In J.~F.~E. IV, F.~Fogelman-Soulié, P.~A. Flach, and M.~Zaki,
   editors, {\em KDD}, pages 169--178. ACM, 2009.
 
+\bibitem{com_det}
+S.~Fortunato.
+\newblock Community detection in graphs.
+\newblock {\em Physics Reports}, 486(3‚Äì5):75 -- 174, 2010.
+
+\bibitem{freeman}
+L.~C. Freeman.
+\newblock Visualizing social networks.
+\newblock {\em Journal of Social Structure}, (1), 2000.
+
 \bibitem{heinrich2005parameter}
 G.~Heinrich.
 \newblock {Parameter estimation for text analysis}.
@@ -23,6 +56,13 @@ G.~Heinrich.
 A.~Huang.
 \newblock {Similarity measures for text document clustering}.
 \newblock pages 49--56, 2008.
+
+\bibitem{com_ev1}
+R.~Kumar, J.~Novak, and A.~Tomkins.
+\newblock Structure and evolution of online social networks.
+\newblock In {\em Proceedings of the 12th ACM SIGKDD International Conference
+  on Knowledge Discovery and Data Mining}, KDD '06, pages 611--617, New York,
+  NY, USA, 2006. ACM.
 
 \bibitem{lee99}
 D.~D. Lee and H.~S. Seung.
@@ -87,6 +127,11 @@ D.~Ramage, D.~Hall, R.~Nallapati, and C.~D. Manning.
 M.~Steyvers and T.~Griffiths.
 \newblock {\em {Probabilistic topic models}}, volume 427.
 \newblock Handbook of Latent Semantic Analysis, 2007.
+
+\bibitem{sna}
+S.~Wasserman and K.~Faust.
+\newblock {\em Social network analysis: Methods and applications}, volume~8.
+\newblock Cambridge University Press, 1994.
 
 \bibitem{yan2013learning}
 X.~Yan, J.~Guo, S.~Liu, X.~Cheng, and Y.~Wang.

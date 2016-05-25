@@ -1,42 +1,42 @@
 \section{Prototype implementation}
 
-In this section we provide a detailed description of our framework, the data collection and the technologies that used in the front and back ends.
+In this section we provide a detailed description of our framework and the technologies that used in the front and back ends, the data collection and last the different aspects of data visualization.
 
 
 \subsection{Framework}
 
-Our web application is based on Django\footnote{\url{https://www.djangoproject.com/}}, which is a free and open-source web framework, written in Python, and follows the model–view–controller (MVC) architectural pattern.
+Our web application is based on Django\footnote{\url{https://www.djangoproject.com/}}, which is a free and open-source web framework, written in Python, and follows the model–view–controller (MVC) architectural pattern. We used HTML, CSS and JavaScript in the front-end and Python, JavaScript in the back-end. First, the application is using the retrieved data for politicians and athletes from JSON files for all the tasks that will be performed. Then, the application analyzes the data further for visualizing different aspects of user contributions. For producing the dynamic, interactive data visualizations we use the JavaScript library D3\footnote{\url{https://d3js.org/}}.
+The application provides an overview of that data with different visualizations for presenting the user contribution over the time, user's summary of posts, impact of posts and the topics that a user is discussing.
+
 
 \subsection{Data Collection}
 
 Our data collection consists of real-world data from Facebook 
 and Twitter and focus on 28 public persons such as, politicians 
-and athletes because they tend to post the same content on Twitter and Facebook more than a normal user.
-
-\subsubsection{Retrieve data from Facebook}
- 
- %TO DO
-
-\subsubsection{Retrieve data from Twitter}
-
-The data was obtained by quering the timeline API of Twitter with the username of each person related to politicians and athletes. For this procedure we used the Tweepy\footnote{\url{http://www.tweepy.org/}}, which is a Python library for accessing the Twitter API. We were able to collect a fixed number of tweets because Twitter only allows access to a users most recent 3240 tweets. The attributes of the data along with their definitions
-are displayed in Table \ref{table:attrib_des}.
+and athletes because they tend to post the same content on Twitter and Facebook more than a normal user. The attributes of the data along with their definitions are displayed in Table \ref{table:attrib_des}. The below data was saved in different files for each user in JSON format.
 
 \begin{table}[ht] 
-\caption{Description of the attributes of Twitter data} 
+\caption{Description of the attributes of data} 
 \centering  
 \begin{tabular}{c | c} 
 \hline\hline 
 Attribute & Description \\ [0.5ex] 
 \hline 
-ID & The id of the twitter post \\ 
-date & The date when the tweet was posted \\ 
-text & The text of the tweet\\ 
-likes & The number of likes of a tweet \\ [1ex]  
+ID & The id of the post \\ 
+date & The date of the post \\ 
+text & The text of the post\\ 
+likes & The number of likes of a post \\ [1ex]  
 \hline  
 \end{tabular} 
 \label{table:attrib_des}
-\end{table} 
+\end{table}
+
+\subsubsection{Retrieve data from Facebook}
+The data was retrieved by requesting the Facebook Graph API for each user using JavaScript.
+
+\subsubsection{Retrieve data from Twitter}
+
+The data was obtained by quering the timeline API of Twitter with the username of each person related to politicians and athletes. For this procedure we used the Tweepy\footnote{\url{http://www.tweepy.org/}}, which is a Python library for accessing the Twitter API. We were able to collect a fixed number of tweets because Twitter only allows access to a users most recent 3240 tweets.  
 
 \subsection{Data visualization}
 \subsubsection{Contribution over time}
