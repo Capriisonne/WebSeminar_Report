@@ -9,6 +9,7 @@
 \usepackage[english]{babel} % If you write in English
 \usepackage{a4wide}
 \usepackage{graphicx}
+\usepackage[linesnumbered,ruled]{algorithm2e}
 \graphicspath{{images/}}
 \usepackage{subfig}
 \usepackage{tikz}
@@ -36,6 +37,8 @@ linkcolor=black,
 citecolor=black,
 urlcolor=black}
 
+
+\DeclareUnicodeCharacter{00A0}{~}
 \renewcommand{\baselinestretch}{1.05}
 \usepackage{fancyhdr}
 \pagestyle{fancy}
@@ -124,7 +127,7 @@ Aleksandar Drobnjak – Research Assistant\\
 \clearpage
 
 \include{01-introduction}
-\include{02-User contributons visualization}
+\include{02-User-contributons-visualization}
 %write here about the papers who tell something why it is important
 % introduce the different aspects we gonna look at
 \include{03-visualize-text-corpus}

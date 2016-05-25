@@ -1,24 +1,28 @@
 \BOOKMARK [1][-]{section.1}{Introduction}{}% 1
 \BOOKMARK [1][-]{section.2}{Motivation}{}% 2
 \BOOKMARK [2][-]{subsection.2.1}{Research Questions}{section.2}% 3
-\BOOKMARK [1][-]{section.3}{Visualize text corpus}{}% 4
-\BOOKMARK [2][-]{subsection.3.1}{Literature review}{section.3}% 5
-\BOOKMARK [2][-]{subsection.3.2}{Graph based visualization}{section.3}% 6
-\BOOKMARK [1][-]{section.4}{Topic models}{}% 7
+\BOOKMARK [1][-]{section.3}{User data visualization}{}% 4
+\BOOKMARK [2][-]{subsection.3.1}{Literature Review}{section.3}% 5
+\BOOKMARK [2][-]{subsection.3.2}{Important aspects}{section.3}% 6
+\BOOKMARK [1][-]{section.4}{Visualize text corpus}{}% 7
 \BOOKMARK [2][-]{subsection.4.1}{Literature review}{section.4}% 8
-\BOOKMARK [2][-]{subsection.4.2}{Latent dirichlet allocation}{section.4}% 9
-\BOOKMARK [2][-]{subsection.4.3}{Non-negative Matrix Factorization}{section.4}% 10
-\BOOKMARK [1][-]{section.5}{Similarity between short texts}{}% 11
-\BOOKMARK [2][-]{subsection.5.1}{Literature review}{section.5}% 12
-\BOOKMARK [2][-]{subsection.5.2}{Cosine Similarity}{section.5}% 13
-\BOOKMARK [1][-]{section.6}{Prototype implementation}{}% 14
-\BOOKMARK [2][-]{subsection.6.1}{Framework}{section.6}% 15
-\BOOKMARK [2][-]{subsection.6.2}{Data Collection}{section.6}% 16
-\BOOKMARK [3][-]{subsubsection.6.2.1}{Retrieve data from Facebook}{subsection.6.2}% 17
-\BOOKMARK [3][-]{subsubsection.6.2.2}{Retrieve data from Twitter}{subsection.6.2}% 18
-\BOOKMARK [2][-]{subsection.6.3}{Data visualization}{section.6}% 19
-\BOOKMARK [3][-]{subsubsection.6.3.1}{Contribution over time}{subsection.6.3}% 20
-\BOOKMARK [3][-]{subsubsection.6.3.2}{Summary of posts}{subsection.6.3}% 21
-\BOOKMARK [3][-]{subsubsection.6.3.3}{Topic models}{subsection.6.3}% 22
-\BOOKMARK [3][-]{subsubsection.6.3.4}{Impact of posts}{subsection.6.3}% 23
-\BOOKMARK [1][-]{section.7}{Conclusion}{}% 24
+\BOOKMARK [2][-]{subsection.4.2}{Graph based visualization}{section.4}% 9
+\BOOKMARK [1][-]{section.5}{Topic models}{}% 10
+\BOOKMARK [2][-]{subsection.5.1}{Literature review}{section.5}% 11
+\BOOKMARK [2][-]{subsection.5.2}{Latent dirichlet allocation}{section.5}% 12
+\BOOKMARK [2][-]{subsection.5.3}{Non-negative Matrix Factorization}{section.5}% 13
+\BOOKMARK [1][-]{section.6}{Similarity between texts}{}% 14
+\BOOKMARK [2][-]{subsection.6.1}{Cosine Similarity}{section.6}% 15
+\BOOKMARK [2][-]{subsection.6.2}{Literature review}{section.6}% 16
+\BOOKMARK [1][-]{section.7}{Prototype implementation}{}% 17
+\BOOKMARK [2][-]{subsection.7.1}{Framework}{section.7}% 18
+\BOOKMARK [2][-]{subsection.7.2}{Data Collection}{section.7}% 19
+\BOOKMARK [3][-]{subsubsection.7.2.1}{Retrieve data from Facebook}{subsection.7.2}% 20
+\BOOKMARK [3][-]{subsubsection.7.2.2}{Retrieve data from Twitter}{subsection.7.2}% 21
+\BOOKMARK [2][-]{subsection.7.3}{Back-end}{section.7}% 22
+\BOOKMARK [2][-]{subsection.7.4}{Data visualization}{section.7}% 23
+\BOOKMARK [3][-]{subsubsection.7.4.1}{Contribution over time}{subsection.7.4}% 24
+\BOOKMARK [3][-]{subsubsection.7.4.2}{Summary of posts}{subsection.7.4}% 25
+\BOOKMARK [3][-]{subsubsection.7.4.3}{Topic models}{subsection.7.4}% 26
+\BOOKMARK [3][-]{subsubsection.7.4.4}{Impact of posts}{subsection.7.4}% 27
+\BOOKMARK [1][-]{section.8}{Conclusion}{}% 28

@@ -1,25 +1,29 @@
 \select@language {english}
-\contentsline {section}{\numberline {1}Introduction}{3}{section.1}
-\contentsline {section}{\numberline {2}Motivation}{4}{section.2}
-\contentsline {subsection}{\numberline {2.1}Research Questions}{4}{subsection.2.1}
-\contentsline {section}{\numberline {3}Visualize text corpus}{7}{section.3}
-\contentsline {subsection}{\numberline {3.1}Literature review}{7}{subsection.3.1}
-\contentsline {subsection}{\numberline {3.2}Graph based visualization}{7}{subsection.3.2}
-\contentsline {section}{\numberline {4}Topic models}{8}{section.4}
+\contentsline {section}{\numberline {1}Introduction}{4}{section.1}
+\contentsline {section}{\numberline {2}Motivation}{5}{section.2}
+\contentsline {subsection}{\numberline {2.1}Research Questions}{5}{subsection.2.1}
+\contentsline {section}{\numberline {3}User data visualization}{7}{section.3}
+\contentsline {subsection}{\numberline {3.1}Literature Review}{7}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Important aspects}{7}{subsection.3.2}
+\contentsline {section}{\numberline {4}Visualize text corpus}{8}{section.4}
 \contentsline {subsection}{\numberline {4.1}Literature review}{8}{subsection.4.1}
-\contentsline {subsection}{\numberline {4.2}Latent dirichlet allocation}{9}{subsection.4.2}
-\contentsline {subsection}{\numberline {4.3}Non-negative Matrix Factorization}{11}{subsection.4.3}
-\contentsline {section}{\numberline {5}Similarity between short texts}{12}{section.5}
-\contentsline {subsection}{\numberline {5.1}Literature review}{12}{subsection.5.1}
-\contentsline {subsection}{\numberline {5.2}Cosine Similarity}{12}{subsection.5.2}
-\contentsline {section}{\numberline {6}Prototype implementation}{13}{section.6}
-\contentsline {subsection}{\numberline {6.1}Framework}{13}{subsection.6.1}
-\contentsline {subsection}{\numberline {6.2}Data Collection}{13}{subsection.6.2}
-\contentsline {subsubsection}{\numberline {6.2.1}Retrieve data from Facebook}{14}{subsubsection.6.2.1}
-\contentsline {subsubsection}{\numberline {6.2.2}Retrieve data from Twitter}{14}{subsubsection.6.2.2}
-\contentsline {subsection}{\numberline {6.3}Data visualization}{14}{subsection.6.3}
-\contentsline {subsubsection}{\numberline {6.3.1}Contribution over time}{14}{subsubsection.6.3.1}
-\contentsline {subsubsection}{\numberline {6.3.2}Summary of posts}{14}{subsubsection.6.3.2}
-\contentsline {subsubsection}{\numberline {6.3.3}Topic models}{14}{subsubsection.6.3.3}
-\contentsline {subsubsection}{\numberline {6.3.4}Impact of posts}{14}{subsubsection.6.3.4}
-\contentsline {section}{\numberline {7}Conclusion}{15}{section.7}
+\contentsline {subsection}{\numberline {4.2}Graph based visualization}{10}{subsection.4.2}
+\contentsline {section}{\numberline {5}Topic models}{11}{section.5}
+\contentsline {subsection}{\numberline {5.1}Literature review}{11}{subsection.5.1}
+\contentsline {subsection}{\numberline {5.2}Latent dirichlet allocation}{12}{subsection.5.2}
+\contentsline {subsection}{\numberline {5.3}Non-negative Matrix Factorization}{14}{subsection.5.3}
+\contentsline {section}{\numberline {6}Similarity between texts}{15}{section.6}
+\contentsline {subsection}{\numberline {6.1}Cosine Similarity}{15}{subsection.6.1}
+\contentsline {subsection}{\numberline {6.2}Literature review}{16}{subsection.6.2}
+\contentsline {section}{\numberline {7}Prototype implementation}{17}{section.7}
+\contentsline {subsection}{\numberline {7.1}Framework}{17}{subsection.7.1}
+\contentsline {subsection}{\numberline {7.2}Data Collection}{17}{subsection.7.2}
+\contentsline {subsubsection}{\numberline {7.2.1}Retrieve data from Facebook}{18}{subsubsection.7.2.1}
+\contentsline {subsubsection}{\numberline {7.2.2}Retrieve data from Twitter}{18}{subsubsection.7.2.2}
+\contentsline {subsection}{\numberline {7.3}Back-end}{18}{subsection.7.3}
+\contentsline {subsection}{\numberline {7.4}Data visualization}{18}{subsection.7.4}
+\contentsline {subsubsection}{\numberline {7.4.1}Contribution over time}{18}{subsubsection.7.4.1}
+\contentsline {subsubsection}{\numberline {7.4.2}Summary of posts}{19}{subsubsection.7.4.2}
+\contentsline {subsubsection}{\numberline {7.4.3}Topic models}{20}{subsubsection.7.4.3}
+\contentsline {subsubsection}{\numberline {7.4.4}Impact of posts}{21}{subsubsection.7.4.4}
+\contentsline {section}{\numberline {8}Conclusion}{23}{section.8}

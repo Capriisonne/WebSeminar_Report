@@ -1,4 +1,4 @@
-This is BibTeX, Version 0.99d (TeX Live 2012)
+This is BibTeX, Version 0.99d (TeX Live 2015)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: isae-report-template.aux
 A level-1 auxiliary file: 01-introduction.aux
@@ -15,6 +15,31 @@ I was expecting a `,' or a `}'---line 137 of file references.bib
  :  author = {Hong, Liangjie and Davison, Brian D.},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
+You're missing a field part---line 449 of file references.bib
+ : 
+ : }
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field part---line 465 of file references.bib
+ : 
+ : }
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field part---line 481 of file references.bib
+ : 
+ : }
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field part---line 504 of file references.bib
+ : 
+ : }
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field part---line 520 of file references.bib
+ : 
+ : }
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
 A bad cross reference---entry "chang"
 refers to entry "conf/kdd/2009", which doesn't exist
 Warning--I didn't find a database entry for "conf/kdd/2009"
@@ -23,47 +48,56 @@ Warning--empty author in Hong
 Warning--empty title in Hong
 Warning--empty booktitle in Hong
 Warning--empty year in Hong
+Warning--empty journal in visualiuationCorpus1
+Warning--empty year in visualiuationCorpus1
+Warning--empty journal in visualiuationCorpus2
+Warning--empty year in visualiuationCorpus2
+Warning--empty journal in visualiuationCorpus3
+Warning--empty year in visualiuationCorpus3
 Warning--there's a number but no volume in freeman
-Warning--empty journal in similarity
-You've used 26 entries,
+Warning--empty journal in similarity1
+Warning--empty year in similarity1
+Warning--empty journal in similarity2
+Warning--empty year in similarity2
+You've used 30 entries,
             2118 wiz_defined-function locations,
-            677 strings with 8880 characters,
-and the built_in function-call counts, 10404 in all, are:
-= -- 1061
-> -- 460
-< -- 15
-+ -- 179
-- -- 153
-* -- 704
-:= -- 1623
-add.period$ -- 88
-call.type$ -- 26
-change.case$ -- 149
+            687 strings with 9096 characters,
+and the built_in function-call counts, 11052 in all, are:
+= -- 1108
+> -- 488
+< -- 14
++ -- 192
+- -- 161
+* -- 742
+:= -- 1752
+add.period$ -- 95
+call.type$ -- 30
+change.case$ -- 165
 chr.to.int$ -- 0
-cite$ -- 33
-duplicate$ -- 441
-empty$ -- 818
-format.name$ -- 153
-if$ -- 2287
+cite$ -- 46
+duplicate$ -- 473
+empty$ -- 874
+format.name$ -- 161
+if$ -- 2398
 int.to.chr$ -- 0
-int.to.str$ -- 26
-missing$ -- 28
-newline$ -- 131
-num.names$ -- 54
-pop$ -- 175
+int.to.str$ -- 30
+missing$ -- 32
+newline$ -- 146
+num.names$ -- 62
+pop$ -- 209
 preamble$ -- 1
-purify$ -- 126
+purify$ -- 138
 quote$ -- 0
-skip$ -- 330
+skip$ -- 344
 stack$ -- 0
-substring$ -- 647
-swap$ -- 143
-text.length$ -- 15
+substring$ -- 644
+swap$ -- 136
+text.length$ -- 14
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 100
-warning$ -- 7
-while$ -- 98
-width$ -- 28
-write$ -- 305
-(There were 2 error messages)
+type$ -- 116
+warning$ -- 16
+while$ -- 103
+width$ -- 32
+write$ -- 330
+(There were 7 error messages)
