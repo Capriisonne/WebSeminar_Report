@@ -1,5 +1,5 @@
 \select@language {english}
-\contentsline {figure}{\numberline {1}{\ignorespaces An LDA example.\relax }}{13}{figure.caption.4}
-\contentsline {figure}{\numberline {2}{\ignorespaces Illustration of approximate non-negative matrix factorization: the matrix A is represented by the two smaller matrices W and H, which, when multiplied, approximately reconstruct A\relax }}{14}{figure.caption.5}
-\contentsline {figure}{\numberline {3}{\ignorespaces ContributonOverTime}}{19}{figure.caption.7}
-\contentsline {figure}{\numberline {4}{\ignorespaces ContributonOverTime}}{20}{figure.caption.8}
+\contentsline {figure}{\numberline {1}{\ignorespaces An LDA example.\relax }}{13}{figure.caption.6}
+\contentsline {figure}{\numberline {2}{\ignorespaces Illustration of approximate non-negative matrix factorization: the matrix A is represented by the two smaller matrices W and H, which, when multiplied, approximately reconstruct A\relax }}{14}{figure.caption.7}
+\contentsline {figure}{\numberline {3}{\ignorespaces ContributonOverTime}}{19}{figure.caption.9}
+\contentsline {figure}{\numberline {4}{\ignorespaces ContributonOverTime}}{20}{figure.caption.10}

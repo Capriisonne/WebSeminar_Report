@@ -1,5 +1,6 @@
 \section{Topic models}
 
+%%%maybe more specific for our problem 
 As our collective knowledge continues to be digitized and stored—in the 
 form of news, blogs, web pages, scientific articles, books, images, sound,
 video, and social networks—it becomes more difficult to find and discover 
@@ -50,7 +51,7 @@ by the same user obtaining higher accuracy. Also, a different approach on topic 
 in \cite{improving}. This paper focus on how to improve clustering metrics and topic coherence with existing algorithms. More specifically, it provides two novel schemes that lead to significantly improved LDA topic models on Twitter content without requiring any modification of the underlying LDA machinery. The first one is about pooling tweets by hashtags that yields a great improvement in all metrics for topic coherence across three diverse Twitter datasets, and the second is an automatic hashtag assignment scheme further improves the hashtag pooling results on a subset of metrics.
 
 
-Non-probabilistic topic models are also very popular. One of the most known representative model is the Non-Negative Matrix Factorization (NMF) \cite{paa94,lee99}. Yan et.al \cite{Yan},  proposed a novel term weight called Ncut-weighted, which measures term’s discriminability according to the words cooccurrences, for short text clustering. More particularly, the experiments show that the clustering performance of NMF is greatly improved with terms weighted by the Ncut-weight. Due to the severe sparsity of short texts, in\cite{yan2013learning}, a different approach on the non-negative matrix factorization is introduced. This approach first learns topics from term correlation data using symmetric non-negative matrix factorization, and then infers the topics of documents. The experimental results on three short text data sets show that this method provides substantially better performance than other baseline methods like LDA.
+Non-probabilistic topic models are also very popular. One of the most known representative model is the Non-Negative Matrix Factorization (NMF) \cite{paa94,lee99}. Yan et.al \cite{Yan},  proposed a novel term weight called Ncut-weighted, which measures terms discriminability according to the words co-occurrences, for short text clustering. More particularly, the experiments show that the clustering performance of NMF is greatly improved with terms weighted by the Ncut-weight. Due to the severe sparsity of short texts, in \cite{yan2013learning}, a different approach on the non-negative matrix factorization is introduced. This approach first learns topics from term correlation data using symmetric non-negative matrix factorization, and then infers the topics of documents. The experimental results on three short text data sets show that this method provides substantially better performance than other baseline methods like LDA.
 
 
 

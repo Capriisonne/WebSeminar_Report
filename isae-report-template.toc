@@ -1,10 +1,8 @@
 \select@language {english}
 \contentsline {section}{\numberline {1}Introduction}{4}{section.1}
 \contentsline {section}{\numberline {2}Motivation}{5}{section.2}
-\contentsline {subsection}{\numberline {2.1}Research Questions}{5}{subsection.2.1}
-\contentsline {section}{\numberline {3}User data visualization}{7}{section.3}
-\contentsline {subsection}{\numberline {3.1}Literature Review}{7}{subsection.3.1}
-\contentsline {subsection}{\numberline {3.2}Important aspects}{7}{subsection.3.2}
+\contentsline {subsection}{\numberline {2.1}Research Questions}{6}{subsection.2.1}
+\contentsline {section}{\numberline {3}User contribution visualization}{7}{section.3}
 \contentsline {section}{\numberline {4}Visualize text corpus}{8}{section.4}
 \contentsline {subsection}{\numberline {4.1}Literature review}{8}{subsection.4.1}
 \contentsline {subsection}{\numberline {4.2}Graph based visualization}{10}{subsection.4.2}
