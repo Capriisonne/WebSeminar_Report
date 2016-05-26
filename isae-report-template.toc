@@ -1,6 +1,6 @@
 \select@language {english}
 \contentsline {section}{\numberline {1}Introduction}{4}{section.1}
-\contentsline {section}{\numberline {2}Motivation}{5}{section.2}
+\contentsline {section}{\numberline {2}Motivation}{6}{section.2}
 \contentsline {subsection}{\numberline {2.1}Research Questions}{6}{subsection.2.1}
 \contentsline {section}{\numberline {3}User contribution visualization}{7}{section.3}
 \contentsline {section}{\numberline {4}Visualize text corpus}{8}{section.4}
@@ -16,7 +16,7 @@
 \contentsline {section}{\numberline {7}Prototype implementation}{17}{section.7}
 \contentsline {subsection}{\numberline {7.1}Framework}{17}{subsection.7.1}
 \contentsline {subsection}{\numberline {7.2}Data Collection}{17}{subsection.7.2}
-\contentsline {subsubsection}{\numberline {7.2.1}Retrieve data from Facebook}{18}{subsubsection.7.2.1}
+\contentsline {subsubsection}{\numberline {7.2.1}Retrieve data from Facebook}{17}{subsubsection.7.2.1}
 \contentsline {subsubsection}{\numberline {7.2.2}Retrieve data from Twitter}{18}{subsubsection.7.2.2}
 \contentsline {subsection}{\numberline {7.3}Back-end}{18}{subsection.7.3}
 \contentsline {subsection}{\numberline {7.4}Data visualization}{18}{subsection.7.4}

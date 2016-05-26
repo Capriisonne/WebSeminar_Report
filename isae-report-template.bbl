@@ -1,8 +1,5 @@
 \begin{thebibliography}{10}
 
-\bibitem{Hong}
-
-
 \bibitem{friend_pred}
 L.~M. Aiello, A.~Barrat, R.~Schifanella, C.~Cattuto, B.~Markines, and
   F.~Menczer.
@@ -59,6 +56,12 @@ L.~C. Freeman.
 G.~Heinrich.
 \newblock {Parameter estimation for text analysis}.
 \newblock {\em Web: http://www. arbylon. net/publications/text-est. pdf}, 2005.
+
+\bibitem{Hong}
+L.~Hong and B.~D. Davison.
+\newblock Empirical study of topic modeling in twitter.
+\newblock In {\em Proceedings of the First Workshop on Social Media Analytics},
+  SOMA '10, pages 80--88, New York, NY, USA, 2010. ACM.
 
 \bibitem{com_ev1}
 R.~Kumar, J.~Novak, and A.~Tomkins.

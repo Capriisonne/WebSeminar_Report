@@ -1,19 +1,25 @@
 \section{Similarity between  texts}
 
-In the field of Information Retrieval the cosine similarity measure is widely use to calculate the similarity between two documents. This measure is based on a bag-of-words representation of the documents. A further explanation of it follows in the next paragraph. \\
-Due to the fact that for our application we want to find texts which are nearly identical the cosine similarity performs quite well. But one has to admit that in general when comparing short texts cosine similarity is working poorly as they are often just a few terms in common. Because of this, after explaining the cosine similarity, we will review some other approaches to calculate the similarity between short text, which can be used in further work, when one wants to find  for example similar post among different people, to get information about what people are talking in a social network. 
+In the field of Information Retrieval the cosine similarity measure is widely use to calculate the similarity between two documents. This measure is based on a bag-of-words representation of the documents. A further explanation of it follows in the next paragraph.
+
+
+Due to the fact that, for our application we want to find texts which are nearly identical the cosine similarity performs quite well. But one has to admit that in general when comparing short texts cosine similarity is working poorly as they are often just a few terms in common. Because of this, after explaining the cosine similarity, we will review some other approaches to calculate the similarity between short text, which can be used in further work, when one wants to find  for example similar post among different people, to get information about what people are talking in a social network. 
 
 \subsection{Cosine Similarity}
 
-For creating the user time-line, we need to find similar posts that a user published both in Twitter and Facebook. For this purpose, we use the cosine similarity metric. The cosine similarity is based on the bag-of-words approach. For a corpus we have a fixed vocabulary V with words $w_1$ to $w_n$. A document in the corpus is than represented as vector in an n-dimensional space where the i-th entry is  not 0 if the documents contains the i-th words of the vocabulary. \\
-The similarity between two documents is than measured over the angle between the vectors of the documents. Meaning as smaller the angle between two vectors as more similar the corresponding documents are. As a smaller angle $\theta$ means directly a larger $cos(\theta)$ one can calculate the similarity between two document vectors  $t_{a}$ and $t_{b}$ as follows:
+For creating the user time-line, we need to find similar posts that a user published both in Twitter and Facebook. For this purpose, we use the cosine similarity metric. The cosine similarity is based on the bag-of-words approach. For a corpus we have a fixed vocabulary V with words $w_1$ to $w_n$. A document in the corpus is than represented as vector in an n-dimensional space where the i-th entry is  not 0 if the documents contains the i-th words of the vocabulary.
+
+
+The similarity between two documents is then measured over the angle between the vectors of the documents. Meaning as smaller the angle between two vectors as more similar the corresponding documents are. As a smaller angle $\theta$ means directly a larger $cos(\theta)$ one can calculate the similarity between two document vectors  $t_{a}$ and $t_{b}$ as follows:
 
 \begin{equation}
 \cos ({\bf t_{a}},{\bf t_{b}})= {{\bf t_{a}} {\bf t_{b}} \over \|{\bf t_{a}}\| \|{\bf \textbf{b}}\|} 
 \end{equation}
 
-This is called the cosine similarity. As greater the cosine similarity as more similar the documents are. \\
-In our worked we weighted the entries of the documents vector with the tf-idf weighting scheme  , which measures  how important  a word is to a document in a collection. The tf-idf weighting scheme assigns to a term t a weight in document d like  this:
+This is called the cosine similarity. As greater the cosine similarity as more similar the documents are.
+
+
+In our work, we weighted the entries of the documents vector with the tf-idf weighting scheme  , which measures  how important  a word is to a document in a collection. The tf-idf weighting scheme assigns to a term t a weight in document d like  this:
 \begin{equation}
 tfidf_{t,d} = tf_{t,d} * idf_{t} 
 \end{equation}
@@ -29,14 +35,16 @@ idf_{t} = \dfrac{Total \quad number \quad  of  \quad documents}{Number \quad  of
 \end{equation}
 
 \subsection{Literature review}
-One problem about using the cosine similarity between short texts is, that normally these text have very few  or no terms in common even tough they are similar in a semantic meaning. This problem is addressed in \cite{Sahami:2006:WKF:1135777.1135834} and \cite{Yih:2007:ISM:1619797.1619884}. \\
-~\\
-The authors of \cite{Sahami:2006:WKF:1135777.1135834} are introducing a new method for measuring the similarity between short texts by expanding their terms. \\
-To measure the similarity between two documents $d_1$ and $d_2$ the authors propose the following approach: \\
-First they do a web search with each document as a query to find a number of documents that contain terms of $d_1$ and $d_2$. Based on the results of the search they created the authors created  a context vector for each document which contains words that tend to occur with the terms from the original text. The similarity between $d_1$ and $d_2$ is than calculated as the cosine similarity between the context vectors. \\
-It is also shown that there algorithm produces a valid kernel function which can be used in any kernel-based machine learning algorithm. In an evaluation the authors compare their method to the cosine similarity and show that their method performs well on their queries. \\
-~\\
-The work of \cite{Yih:2007:ISM:1619797.1619884} is based on the previous described work. The authors adapt the idea of Sahami \& Heilmann and propose another weighting scheme to measure the importance of the words in the expanded vector. While in \cite{Sahami:2006:WKF:1135777.1135834} the tf-idf measure was used, the authors of this work are using a keyword extraction approach. Their idea is that words which appear in the title of a document or at the beginning are typically more important to the topic of the document than other words. A keyword extraction system is used to capture these facts. \\
+
+
+One problem about using the cosine similarity between short texts is that, normally these texts have very few  or no terms in common even tough they are similar in a semantic meaning. This problem is addressed in \cite{Sahami:2006:WKF:1135777.1135834} and \cite{Yih:2007:ISM:1619797.1619884}.
+
+The authors of \cite{Sahami:2006:WKF:1135777.1135834} are introducing a new method for measuring the similarity between short texts by expanding their terms. To measure the similarity between two documents $d_1$ and $d_2$ the authors propose the following approach. First, they do a web search with each document as a query to find a number of documents that contain terms of $d_1$ and $d_2$. Based on the results of the search they created the authors created  a context vector for each document which contains words that tend to occur with the terms from the original text. The similarity between $d_1$ and $d_2$ is then calculated as the cosine similarity between the context vectors. It is also shown that there algorithm produces a valid kernel function which can be used in any kernel-based machine learning algorithm. In evaluation the authors compare their method to the cosine similarity and show that their method performs well on their queries. 
+
+
+The work of \cite{Yih:2007:ISM:1619797.1619884} is based on the previous described work. The authors adapt the idea of Sahami \& Heilmann and propose another weighting scheme to measure the importance of the words in the expanded vector. While in \cite{Sahami:2006:WKF:1135777.1135834}, the tf-idf measure was used, the authors of this work are using a keyword extraction approach. Their idea is that, words which appear in the title of a document or at the beginning are typically more important to the topic of the document than other words. A keyword extraction system is used to capture these facts.
+
+
 In another section the authors also propose to use machine learning to improve the similarity measure. They are taking the output of existing similarity measure as features and combine them to increase the overall coverage. 
 
 

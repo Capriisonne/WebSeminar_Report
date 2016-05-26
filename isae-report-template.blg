@@ -1,4 +1,4 @@
-This is BibTeX, Version 0.99d (TeX Live 2015)
+This is BibTeX, Version 0.99d (TeX Live 2012)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: isae-report-template.aux
 A level-1 auxiliary file: 01-introduction.aux
@@ -10,22 +10,11 @@ A level-1 auxiliary file: 06-Implementation.aux
 A level-1 auxiliary file: 07-conclusion.aux
 The style file: abbrv.bst
 Database file #1: references.bib
-I was expecting a `,' or a `}'---line 137 of file references.bib
- :  
- :  author = {Hong, Liangjie and Davison, Brian D.},
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
 Warning--entry type for "doi:10.1117/12.647867" isn't style-file defined
 --line 453 of file references.bib
 A bad cross reference---entry "chang"
 refers to entry "conf/kdd/2009", which doesn't exist
-Warning--I didn't find a database entry for "visualiuationCorpus1"
 Warning--I didn't find a database entry for "conf/kdd/2009"
-Warning--to sort, need author or key in Hong
-Warning--empty author in Hong
-Warning--empty title in Hong
-Warning--empty booktitle in Hong
-Warning--empty year in Hong
 Warning--empty journal in journals/informaticaSI/FortunaGM05
 Warning--empty year in journals/informaticaSI/FortunaGM05
 Warning--there's a number but no volume in freeman
@@ -33,43 +22,43 @@ Warning--empty journal in visualiuationCorpus3
 Warning--empty year in visualiuationCorpus3
 You've used 30 entries,
             2118 wiz_defined-function locations,
-            701 strings with 9686 characters,
-and the built_in function-call counts, 11761 in all, are:
-= -- 1196
-> -- 522
-< -- 16
-+ -- 204
-- -- 173
-* -- 788
-:= -- 1834
-add.period$ -- 99
+            704 strings with 9799 characters,
+and the built_in function-call counts, 12011 in all, are:
+= -- 1235
+> -- 534
+< -- 17
++ -- 208
+- -- 177
+* -- 796
+:= -- 1882
+add.period$ -- 102
 call.type$ -- 30
-change.case$ -- 171
+change.case$ -- 174
 chr.to.int$ -- 0
-cite$ -- 40
-duplicate$ -- 498
-empty$ -- 928
-format.name$ -- 173
-if$ -- 2584
+cite$ -- 35
+duplicate$ -- 506
+empty$ -- 937
+format.name$ -- 177
+if$ -- 2646
 int.to.chr$ -- 0
 int.to.str$ -- 30
 missing$ -- 31
-newline$ -- 148
-num.names$ -- 62
-pop$ -- 208
+newline$ -- 150
+num.names$ -- 64
+pop$ -- 200
 preamble$ -- 1
-purify$ -- 144
+purify$ -- 146
 quote$ -- 0
-skip$ -- 378
+skip$ -- 388
 stack$ -- 0
-substring$ -- 716
-swap$ -- 160
-text.length$ -- 16
+substring$ -- 740
+swap$ -- 167
+text.length$ -- 17
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 116
-warning$ -- 10
-while$ -- 109
+warning$ -- 5
+while$ -- 114
 width$ -- 32
-write$ -- 344
-(There were 2 error messages)
+write$ -- 354
+(There was 1 error message)

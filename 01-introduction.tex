@@ -5,10 +5,7 @@ In the recent decades, the notion of social networks and methods for social netw
 in popularity, because they are no longer constrained by the geographical limitations of a conventional social network in which interactions are defined in more conventional ways such as face-to-face meetings, or personal friendships. The main interest is due to the attractiveness of analyzing relationships between entities, behavioral patterns that arise in such networks and the implications that are followed by such analysis. The social network perspective opens new directions in answering questions from social behavioral science by giving definitions to aspects of the political, economical, or social structural environment \cite{sna}. Consequently, the answers in such questions have great impact in the society, through understanding how individual behaviors are being expressed \cite{ba}, how relationships between people are created or ended \cite{friend_pred}, which characteristics describe people \cite{am2} and how social communities are formed \cite{com_det} and evolve over time \cite{com_ev1}. 
 
 
-In general, a social network is defined as a network of interactions or relationships, where the nodes typically may represent either users or web content (e.g. posts, news, videos, messages and other), and the edges consist of the relationships or interactions between nodes. %However, as networks become larger and more complex creates the need to visualize them in order to make more frequent and important insights.%
- 
-
-Social networks are typically rich in text, because of a wide variety of methods by which users can contribute text content to the network. For example,
+In general, a social network is defined as a network of interactions or relationships, where the nodes typically may represent either users or web content (e.g. posts, news, videos, messages and other), and the edges consist of the relationships or interactions between nodes. Social networks are typically rich in text, because of a wide variety of methods by which users can contribute text content to the network. For example,
 typical social networks such as Facebook allow the creation of various text content such as wall posts, comments, and links to blog and web pages. Studying the characteristics of content, for instance in the messages, becomes important for a number of tasks, such as topic detection, personalized message recommendation, friends recommendation, sentiment analysis and others. Topic models \cite{blei2} are powerful tools to identify latent text patterns in the content. They are applied in a wide range of areas including recent work on Twitter \cite{microblogs}.
 
 With today‘s ubiquity and popularity of social network applications, the ability to analyze and understand large networks in an efficient manner becomes
@@ -18,15 +15,18 @@ is more than simply creating intriguing pictures, it is about generating
 learning situations: “images of social networks have provided investigators with new insights about network structure and have helped them communicate those
 insights to others”. Moreover, visualization can be very helpful in data analysis, for instance, for finding main topics that appear in larger sets of documents. Extraction of main concepts from documents using techniques such as Latent Dirichlet Allocation, can make the results of visualizations more useful. 
 
+In this document, we focus in particular more on analyzing and further visualizing the contributions of a user posts in the social web, rather than on investigating his or her social connections among other users. Our main goal is to analyze the posts of a user and identify some interesting aspects about the intention of a user to post over time, the themes that he or she is interested in discussing and the impact of his or her posts in two different social networks. Likewise, we obtain valuable source of potential important information that is included in the post related to the user.
+
+
 The rest of the document is organized as follows. In section 2 we provide the motivation and our research questions. In section 3 we speak about the different aspects we want to investigate and visualize in our work
 In the next section we describe the visualization of the text corpus and we provide an overview of related work. In Section 4 we describe the Topic models that we used and their relative work. Next, in Section 5 we provide the similarity between short texts and the metric that we used. In Section 6, we introduce the steps that were followed for our prototype implementation, namely Framework, Data Collection and Data visualization. Finally, in Section 7 we conclude our document providing future work directions.
 
 
-
+\newpage
 \section{Motivation}
 
 
-Social networks have emerged as an important factor in information dissemination, search, marketing, expertise and influence discovery, and potentially an important tool for mobilizing people. More particularly, Twitter and Facebook have been a crucial source of information for a wide spectrum of users and are given access to massive quantities of data for further analysis. Thus, an interesting aspect in social networks is the visualization of the contributions of a user posts and their impact across different platforms. Over time the contributions of an user in social networks is growing and this creates the need to have a simple overview of the data by visualizing it. Data visualization offers a quick way to present the data in a way that can reveal valuable hidden insights. Thus, through the visualization, users can easily understand what are the hot posts, that is those posts are able to attract a greater attention or interest.
+Social networks have emerged as an important factor in information dissemination, search, marketing, expertise and influence discovery, and potentially an important tool for mobilizing people. More particularly, Twitter and Facebook have been a crucial source of information for a wide spectrum of users and are given access to massive quantities of data for further analysis. Thus, an interesting aspect in social networks is the visualization of the contributions of a user posts and their impact across different platforms. Over time the contributions of a user in social networks is growing and this creates the need to have a simple overview of the data by visualizing it. Data visualization offers a quick way to present the data in a way that can reveal valuable hidden insights. Thus, through the visualization, users can easily understand what are the hot posts, that is those posts are able to attract a greater attention or interest.
 
 
 \subsection{Research Questions}
@@ -36,12 +36,12 @@ Several research questions arise for visualizing the contributions of user posts
 
 
 \begin{enumerate}
-\item How can we visualize the contribution of an user in social networks?
+\item How can we visualize the contribution of a user in social networks?
 \item How can we interrelate the posts published by the same user?
 \item How can we find similar posts in different social networks?
 \end{enumerate}
 
 
-Answering these questions is important to understand how much an user contributes to a social network but, also to understand the impacts of his posts. By visualizing his contribution over time we can see for instance, in which month of $2015$  he published  the most posts in Facebook or Twitter. Moreover, by interrelating his posts we can gain an interesting view about the topics that a user is discussing. Last, by finding the similarity of his posts we can see how many likes has a similar or a same post in Facebook and Twitter.
+Answering these questions is important to understand how much a user contributes to a social network but, also to understand the impacts of his posts. By visualizing his contribution over time we can see for instance, in which month of $2015$  he published  the most posts in Facebook or Twitter. Moreover, by interrelating his posts we can gain an interesting view about the topics that a user is discussing. Last, by finding the similarity of his posts we can see how many likes has a similar or a same post in Facebook and Twitter.
 
 
