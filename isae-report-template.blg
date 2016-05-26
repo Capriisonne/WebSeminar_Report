@@ -2,7 +2,7 @@ This is BibTeX, Version 0.99d (TeX Live 2015)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: isae-report-template.aux
 A level-1 auxiliary file: 01-introduction.aux
-A level-1 auxiliary file: 02-User.aux
+A level-1 auxiliary file: 02-User-contributons-visualization.aux
 A level-1 auxiliary file: 03-visualize-text-corpus.aux
 A level-1 auxiliary file: 04-topic-models.aux
 A level-1 auxiliary file: 05-similarity-between-short-texts.aux
@@ -15,89 +15,61 @@ I was expecting a `,' or a `}'---line 137 of file references.bib
  :  author = {Hong, Liangjie and Davison, Brian D.},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field part---line 449 of file references.bib
- : 
- : }
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
-You're missing a field part---line 465 of file references.bib
- : 
- : }
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
-You're missing a field part---line 481 of file references.bib
- : 
- : }
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
-You're missing a field part---line 504 of file references.bib
- : 
- : }
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
-You're missing a field part---line 520 of file references.bib
- : 
- : }
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
+Warning--entry type for "doi:10.1117/12.647867" isn't style-file defined
+--line 453 of file references.bib
 A bad cross reference---entry "chang"
 refers to entry "conf/kdd/2009", which doesn't exist
+Warning--I didn't find a database entry for "visualiuationCorpus1"
 Warning--I didn't find a database entry for "conf/kdd/2009"
 Warning--to sort, need author or key in Hong
 Warning--empty author in Hong
 Warning--empty title in Hong
 Warning--empty booktitle in Hong
 Warning--empty year in Hong
-Warning--empty journal in visualiuationCorpus1
-Warning--empty year in visualiuationCorpus1
-Warning--empty journal in visualiuationCorpus2
-Warning--empty year in visualiuationCorpus2
+Warning--empty journal in journals/informaticaSI/FortunaGM05
+Warning--empty year in journals/informaticaSI/FortunaGM05
+Warning--there's a number but no volume in freeman
 Warning--empty journal in visualiuationCorpus3
 Warning--empty year in visualiuationCorpus3
-Warning--there's a number but no volume in freeman
-Warning--empty journal in similarity1
-Warning--empty year in similarity1
-Warning--empty journal in similarity2
-Warning--empty year in similarity2
 You've used 30 entries,
             2118 wiz_defined-function locations,
-            687 strings with 9096 characters,
-and the built_in function-call counts, 11052 in all, are:
-= -- 1108
-> -- 488
-< -- 14
-+ -- 192
-- -- 161
-* -- 742
-:= -- 1752
-add.period$ -- 95
+            701 strings with 9686 characters,
+and the built_in function-call counts, 11761 in all, are:
+= -- 1196
+> -- 522
+< -- 16
++ -- 204
+- -- 173
+* -- 788
+:= -- 1834
+add.period$ -- 99
 call.type$ -- 30
-change.case$ -- 165
+change.case$ -- 171
 chr.to.int$ -- 0
-cite$ -- 46
-duplicate$ -- 473
-empty$ -- 874
-format.name$ -- 161
-if$ -- 2398
+cite$ -- 40
+duplicate$ -- 498
+empty$ -- 928
+format.name$ -- 173
+if$ -- 2584
 int.to.chr$ -- 0
 int.to.str$ -- 30
-missing$ -- 32
-newline$ -- 146
+missing$ -- 31
+newline$ -- 148
 num.names$ -- 62
-pop$ -- 209
+pop$ -- 208
 preamble$ -- 1
-purify$ -- 138
+purify$ -- 144
 quote$ -- 0
-skip$ -- 344
+skip$ -- 378
 stack$ -- 0
-substring$ -- 644
-swap$ -- 136
-text.length$ -- 14
+substring$ -- 716
+swap$ -- 160
+text.length$ -- 16
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 116
-warning$ -- 16
-while$ -- 103
+warning$ -- 10
+while$ -- 109
 width$ -- 32
-write$ -- 330
-(There were 7 error messages)
+write$ -- 344
+(There were 2 error messages)
