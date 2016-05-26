@@ -61,7 +61,7 @@ In figure \ref{fig:contribution} one can see an example of this approach. In thi
 \begin{figure}[t]
 	\centering
 	\includegraphics[width=0.7\linewidth]{usercontribution1}
-	\caption[ContributonOverTime]{Example contribution over time for Barack Obama}
+	\caption[ContributonOverTime]{Example contribution over time for Barack Obama with post showing}
 	\label{fig:contributon2}
 \end{figure}
 
@@ -70,14 +70,23 @@ For visualizing a summary of the posts we used the approach shown in \ref{sec:gr
 Before visualizing the posts, an user can choose a time range, this can be a month in a year or the last X days. The algorithm than just visualizes the summary of all the posts, which where published in this time range. \\
 After getting the posts and calculating the graph, the structure is drawn. We used the Force Layout from the JavaScript D3 library, because it  takes automatically care, that strongly connected components are close to each other, while components which are not strongly connected are further away from each other. This results in a better overview of the data. \\
 The size of an label of a node was adjusted to the occurrence-count of this node. This means that the more often a word occurs in the text, the bigger the size of the label of the corresponding node. For the edges we did something similar. As more often two words appear together, as thicker we draw the connection between the corresponding nodes. \\
-In  figure \ref{fig:summary} one can see an example of our approach. We visualizing the summary of the posts of Barack Obama of January 2016 by considering the 25 most used words. As we can see the more connected components around "Barack", "President" and "Obama" are closer to each other, than the other nodes, which make it easier to read the structure. For further information an user of our prototype can go over one edge with his mouse which opens a textbox with all the posts in which the two corresponding word co-occurred together. An example of this is shown in figure XXX 
+In  figure \ref{fig:summary} one can see an example of our approach. We visualizing the summary of the posts of Barack Obama of January 2016 by considering the 25 most used words. As we can see the more connected components around "Barack", "President" and "Obama" are closer to each other, than the other nodes, which make it easier to read the structure. For further information an user of our prototype can go over one edge with his mouse which opens a textbox with all the posts in which the two corresponding word co-occurred together. An example of this is shown in figure \ref{fig:summary2} 
 
 \begin{figure}[t]
 	\centering
-	\includegraphics[width=0.7\linewidth]{usercontribution}
+	\includegraphics[width=0.7\linewidth]{summary1}
 	\caption[ContributonOverTime]{Example of the summary of posts of Barack Obama of January 2016}
-	\label{fig:graphVisualization}
+	\label{fig:summary}
 \end{figure}
+
+
+\begin{figure}[t]
+	\centering
+	\includegraphics[width=0.7\linewidth]{summary2}
+	\caption[ContributonOverTime]{Example of the summary of posts with mouse-over of Barack Obama of January 2016}
+	\label{fig:summary2}
+\end{figure}
+
 
 \subsubsection{Topic models}
 For calculating the topic models we used the "LatentDirichletAllocation" class from the scikit-learn library. When initializing an object of this class, one has to  decide how many topics should be created. A method called "fit" calculates these topic models than and returns for each topic model a ranked list of words, which are used to describe the topic. We also used a method called  "transform" which returns 
@@ -86,8 +95,12 @@ An example for a part of the  output of the "fit" method can be seen in table \r
 For the visualization of the models we wanted to show the top 5 words for each topic to the user, as well as how many documents belong to each topic. While the top 5 words give us a description of the models, the visualization of the amount of documents for each topics gives us an impression about how important each topic is. It is to assume, that a topic which has way more documents than the other topics, is more important to the writer than another  topic. \\
 We chose a Bubble Chart from the D3 library to realize our ideas. In the chart we assigned each topic a bubble (circle), which size is depending on how many documents belong to this topic. Inside the chart we wrote the top 5 words, to describe the model. Figure \ref{fig:chart} shows an example of this approach. Here we created 10 topics for the post of Barack Obama. The number of topics to be calculated can be chosen by the user of our framework. For further information a user can go with his mouse over one topic and see the number of documents which belong to this topic, as well as other words, which describe this topic. If the user clicks on one of the bubbles, the documents (post) of this topic are shown at the side. This approach enables an user to find out what a person is talking about, as well as just getting the posts about the topics the user is actually interested in. 
 
-$\begin{array}{c|c|c|c|c|c}
-& word \quad 1 & word \quad 2 & word \quad 3 & word  \quad 4 & word \quad 5 \\ 
+
+\begin{table}
+	\centering
+	\begin{tabular}{c|c|c|c|c|c}
+
+&  word 1 & word  2 & word  3 & word   4 & word  5 \\ 
 \hline
 Topic \quad1 & house & president &  white &  obama &  barack \\ 
 \hline
@@ -98,9 +111,25 @@ Topic \quad3 & president & obama  & reform  &  day  & court  \\
 Topic \quad4 & 2012   &  check  &  deal & love  &  iran \\ 
 \hline
 Topic \quad5 &  obama & president  & watch   & america  &  day
-\label{tab:exampleOutputTopicModels}
-\end{array} $
+\end{tabular}
+\caption{Example output for LDA Topic Models}\label{tab:exampleOutputTopicModels}
+\end{table}
 
+
+\begin{figure}[t]
+	\centering
+	\includegraphics[width=0.7\linewidth]{topicModel}
+	\caption[ContributonOverTime]{Topic model examples for Barack Obama}
+	\label{fig:summary}
+\end{figure}
+
+
+\begin{figure}[t]
+	\centering
+	\includegraphics[width=0.7\linewidth]{topicModel2}
+	\caption[ContributonOverTime]{Topic model examples with mouse-over for Barack Obama}
+	\label{fig:summary2}
+\end{figure}
 
 
 
